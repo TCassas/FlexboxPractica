@@ -7,15 +7,35 @@
   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   <title>Document</title>
 </head>
 <body>
+  <div id="menuMovilCaja" class="ocultarMenu">
+    <div id="parteSuperiorMenu">
+      <img src="images/logo-bookmark.svg" alt="">
+      <ion-icon name="close" id="botonMenuMovilCerrar"></ion-icon>
+    </div>
+    <ul>
+      <li>features</li>
+      <li>pricing</li>
+      <li>contact</li>
+      <li>login</li>
+    </ul>
+    <div id="parteInferiorMenu">
+      <img src="images/icon-facebook.svg" alt="">
+      <img src="images/icon-twitter.svg" alt="">
+    </div>
+  </div>
   <main>
     <header>
       <div id="logo">
         <img src="images/logo-bookmark.svg" alt="">
       </div>
       <nav>
+        <div id="menuMovil">
+          <ion-icon name="menu" id="botonMenuMovilAbrir"></ion-icon>
+        </div>
         <ul>
           <li>features</li>
           <li>pricing</li>

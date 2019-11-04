@@ -68,3 +68,15 @@ new simpleParallax(imagenInicio, {
   orientation: 'right',
   scale: 1.1
 });
+
+var menuMovil = document.querySelector("#menuMovilCaja");
+var botonAbrirMenu = document.querySelector("#botonMenuMovilAbrir");
+var botonCerrarMenu = document.querySelector("#botonMenuMovilCerrar");
+
+botonMenuMovilAbrir.addEventListener('click', (e) => {
+  menuMovil.classList.toggle("ocultarMenu");
+});
+
+botonMenuMovilCerrar.addEventListener('click', (e) => {
+  menuMovil.classList.toggle("ocultarMenu");
+});
