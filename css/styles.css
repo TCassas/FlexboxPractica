@@ -235,7 +235,7 @@ header nav ul li:nth-of-type(4) {
 
 #botonesJS button {
   border: none;
-  background-color: white;
+  background-color:inherit;
   width: 32%;
   padding: 20px 40px;
   transition: 0.3s;
@@ -282,7 +282,7 @@ header nav ul li:nth-of-type(4) {
   height: 40%;
   width: 30%;
   left: 0;
-  top: 45%;
+  top: 60%;
   border-radius: 100px;
   background-color: hsl(231, 69%, 60%);
   z-index: -1;
