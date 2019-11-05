@@ -157,7 +157,7 @@ header nav ul li:nth-of-type(4) {
   /* height: 100vh; */
   justify-content: flex-start;
   position: relative;
-  margin-bottom: 10%;
+  margin-bottom: 68px;
 }
 
 #cartas {
@@ -373,6 +373,7 @@ header nav ul li:nth-of-type(4) {
   flex-flow: column;
   align-items: center;
   margin-bottom: 20%;
+  margin-top: 86px;
 }
 
 #preguntasJS {
@@ -387,7 +388,7 @@ header nav ul li:nth-of-type(4) {
 }
 
 #preguntasJS p {
-  height: 100px;
+  height: auto;
   transition: 0.1s;
 }
 
@@ -726,6 +727,14 @@ footer #footerPostaIzquierda img {
 
   .navegador:nth-of-type(3) {
     align-self: center;
+  }
+
+  #preguntasJS {
+    width: 100%;
+  }
+
+  #preguntas .introSeccion {
+    text-align: center;
   }
 
   footer #preFooter p {
